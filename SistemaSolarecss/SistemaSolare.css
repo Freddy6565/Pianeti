@@ -1,0 +1,87 @@
+/*p{
+text-align: center;
+background-color: aqua;
+color:chocolate;
+font-size: 22px;
+}*/
+
+div#Intestazione {
+    background-image:url(../Immagini/Sfondo.jpg);
+    width: 98%;
+    margin:auto;
+    height: 180px;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center; 
+    border-radius: 5px;
+    
+    border:solid 2px;
+    border-color: chocolate;
+    padding-bottom: 80px;
+}
+body{ background-color:#2D3740;
+margin:10px;
+}
+p#Titolo{ 
+    text-align:center;
+    line-height: 180px;
+    font-size: 48px;
+    color:wheat;
+}
+#Introduzione{
+width:98%;
+margin:10px;
+height: 600px;
+background-image:url(../Immagini/Sfo.jpg);
+/*color:white;*/
+border-radius:5px;
+border-top: solid 1px;
+border-left:solid 2px;
+border-right: solid 2px;
+border-bottom: solid 2px;
+border-color: chocolate}
+h2 {text-align:center}
+
+
+#paragrafo{
+    /*text-align:center;*/
+    color:wheat;
+    padding-top:10px;
+    padding-left: 10px;
+    padding-right:10px;
+     
+}
+ul {padding-left:60px;
+    padding-bottom: 20px;
+color:wheat;
+}
+ul li{ padding:10px ;
+list-style-image:url(../Immagini/Lista.png);
+}
+a{color:wheat;}
+
+#cardContainer{
+    /*text-align: center;*/
+    color:wheat;
+    margin:10px;
+    width:calc(22% - 10px);
+    display: inline-block;
+    border:2px solid chocolate;
+    padding-left: 10px;
+    padding-right: 5px;
+    border-radius: 5px;
+    margin-top: 5px;
+    background-image:url(../Immagini/mercurio_1.jpg);
+}
+
+#MercurioFooter{
+
+    text-align:center;
+    margin-top:10px;
+}
+#footer_pg{
+    color: wheat;
+    
+    margin:15px;
+    text-align: center;
+}
